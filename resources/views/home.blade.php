@@ -387,3 +387,4 @@
 @endsection
 
 {{-- CRYMA Landing Page --}}
+{{-- Hero section with CTA buttons --}}
