@@ -392,3 +392,4 @@
 {{-- Features section with 6 cards --}}
 {{-- Testimonials section --}}
 {{-- Improved spacing and responsiveness --}}
+{{-- Optimized Blade components --}}
