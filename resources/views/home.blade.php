@@ -388,3 +388,4 @@
 
 {{-- CRYMA Landing Page --}}
 {{-- Hero section with CTA buttons --}}
+{{-- Pricing section with 3 plans --}}
