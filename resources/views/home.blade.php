@@ -390,3 +390,4 @@
 {{-- Hero section with CTA buttons --}}
 {{-- Pricing section with 3 plans --}}
 {{-- Features section with 6 cards --}}
+{{-- Testimonials section --}}
