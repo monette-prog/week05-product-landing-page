@@ -7,20 +7,17 @@
 ## 2. Introduction
 
 ### What is a Product Landing Page?
-**A product landing page is a standalone web page designed to promote a specific product or service. It is typically the first page a visitor sees when they click on an advertisement or a link, and its main goal is to convert visitors into customers.**
+A product landing page is a standalone web page designed to promote a specific product or service. It is typically the first page a visitor sees when they click on an advertisement or a link, and its main goal is to convert visitors into customers.
 
 ### Why Landing Pages Are Important for Businesses
-**Landing pages are essential for businesses because they capture the attention of potential customers, communicate the value of a product or service, include clear calls-to-action to encourage conversions, and help build brand credibility and trust.**
+Landing pages are essential for businesses because they capture the attention of potential customers, communicate the value of a product or service, include clear calls-to-action to encourage conversions, and help build brand credibility and trust.
 
 ### Purpose of the Project
-**For this project, I designed and built a modern, responsive landing page for **CRYMA**, an e-commerce brand. I used **Laravel**, **Tailwind CSS**, and **Blade Components** to create a clean and reusable interface that shows off the brand's identity and products. This project gave me hands-on practice with component-based development, responsive design, and UI/UX principles.**
+For this project, I designed and built a modern, responsive landing page for **CRYMA**, an e-commerce brand. I used **Laravel**, **Tailwind CSS**, and **Blade Components** to create a clean and reusable interface that shows off the brand's identity and products. This project gave me hands-on practice with component-based development, responsive design, and UI/UX principles.
 
 ---
 
 ## 3. Objectives
-
-Throughout this project, I was able to:
-
 1. **Develop Responsive Web Interfaces** – I built responsive layouts using Tailwind CSS.
 2. **Create Reusable Blade Components** – I used Blade Components to avoid repeating code.
 3. **Apply Responsive Design Principles** – I made sure the page works on desktop, tablet, and mobile.
@@ -34,10 +31,10 @@ Throughout this project, I was able to:
 ## 4. Responsive Web Design
 
 ### Mobile-First Design
-**I built the CRYMA landing page with a mobile-first approach, so the layout works well on small screens first before scaling up to bigger devices.**
+I built the CRYMA landing page with a mobile-first approach, so the layout works well on small screens first before scaling up to bigger devices.
 
 ### Responsive Breakpoints
-**I used Tailwind's breakpoints (`sm`, `md`, `lg`, `xl`) to adjust the layout, text size, and spacing depending on the screen size.**
+I used Tailwind's breakpoints (`sm`, `md`, `lg`, `xl`) to adjust the layout, text size, and spacing depending on the screen size.
 
 ### Flexbox and CSS Grid
 **I used **Flexbox** to align items in the navbar, hero section, and footer. I used **CSS Grid** to arrange the feature cards, pricing cards, and testimonials.**
