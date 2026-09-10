@@ -118,37 +118,37 @@ blade
 ## 7. User Interface Design
 
 ### Color Palette
-> - **Primary**: `#0F6260` (Teal)
-> - **Secondary**: `#073B4C` (Dark Blue)
-> - **Accent**: `#EAF8F6` (Light Mint)
-> - **Neutral**: White, Gray, Black
->
-> The teal and dark blue give the brand a clean and trustworthy feel, while the light mint accent softens the layout and keeps it from looking too heavy. A limited palette also makes the page feel more professional and easier on the eyes.
+- **Primary**: `#0F6260` (Teal)
+- **Secondary**: `#073B4C` (Dark Blue)
+- **Accent**: `#EAF8F6` (Light Mint)
+- **Neutral**: White, Gray, Black
+
+ The teal and dark blue give the brand a clean and trustworthy feel, while the light mint accent softens the layout and keeps it from looking too heavy. A limited palette also makes the page feel more professional and easier on the eyes.
 
 ### Typography
-> I used a clean and modern sans-serif font for readability and a professional look.
->
-> Sans-serif fonts are easier to read on screens, especially on smaller devices. Keeping the font consistent across all sections helps users follow the content without distraction.
+ I used a clean and modern sans-serif font for readability and a professional look.
+
+Sans-serif fonts are easier to read on screens, especially on smaller devices. Keeping the font consistent across all sections helps users follow the content without distraction.
 
 ### Iconography
-> I used icons in the features section to make the content more engaging and easier to scan.
->
-> Icons help break up text-heavy sections and give users quick visual cues, so they can understand the feature at a glance even before reading the description.
+ I used icons in the features section to make the content more engaging and easier to scan.
+
+ Icons help break up text-heavy sections and give users quick visual cues, so they can understand the feature at a glance even before reading the description.
 
 ### Button Styles
-> Primary buttons use a solid teal background with white text. Secondary buttons use an outline style.
->
-> The contrast between the two button styles helps users know which action is more important. The primary button stands out and guides the user toward the main action, while the secondary button offers an alternative without competing for attention.
+ Primary buttons use a solid teal background with white text. Secondary buttons use an outline style.
+
+ The contrast between the two button styles helps users know which action is more important. The primary button stands out and guides the user toward the main action, while the secondary button offers an alternative without competing for attention.
 
 ### Card Design
-> The cards have rounded corners, subtle shadows, and consistent spacing to give the page a clean and polished look.
->
-> Rounded corners and shadows give the cards a modern, friendly feel, while consistent padding makes the content easy to read. This improves the user experience by making the layout feel organized and easy to navigate.
+ The cards have rounded corners, subtle shadows, and consistent spacing to give the page a clean and polished look.
+
+ Rounded corners and shadows give the cards a modern, friendly feel, while consistent padding makes the content easy to read. This improves the user experience by making the layout feel organized and easy to navigate.
 
 ### Layout Consistency
-> I kept spacing and alignment consistent across all sections so the page feels cohesive from top to bottom.
->
-> Consistent spacing and alignment make the page predictable for users. When sections follow the same rhythm, users can scan the page faster, and the overall design feels more professional and intentional.
+ I kept spacing and alignment consistent across all sections so the page feels cohesive from top to bottom.
+
+ Consistent spacing and alignment make the page predictable for users. When sections follow the same rhythm, users can scan the page faster, and the overall design feels more professional and intentional.
 
 ---
 
