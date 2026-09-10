@@ -180,8 +180,8 @@ Sans-serif fonts are easier to read on screens, especially on smaller devices. K
 | Pricing Cards | ![Pricing Cards](screenshots/09-Pricing-Cards.png) |
 | Testimonials | ![Testimonials](screenshots/10-Testimonials.png) |
 | Footer | ![Footer](screenshots/11-Footer.png) |
-| VS Code Project Structure - 1 | ![VS Code Project Structure - 1](screenshots/12-VS-Code-Project-Structure-1.png) |
-| VS Code Project Structure - 2 | ![VS Code Project Structure - 2](screenshots/12-VS-Code-Project-Structure-2.png) |
+| VS Code Project Structure - 1 | ![VS Code Project Structure - 1](screenshots/11-Footer.png) |
+| VS Code Project Structure - 2 | ![VS Code Project Structure - 2](screenshots/11-Footer.png) |
 | Blade Components | ![Blade Components](screenshots/13-Blade-Components.png) |
 | GitHub Repository | ![GitHub Repository](screenshots/14-GitHub-Repository.png) |
 | Product Showcase | ![Product Showcase](screenshots/15-Product-Showcase.png) |
