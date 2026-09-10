@@ -37,17 +37,17 @@ I built the CRYMA landing page with a mobile-first approach, so the layout works
 I used Tailwind's breakpoints (`sm`, `md`, `lg`, `xl`) to adjust the layout, text size, and spacing depending on the screen size.
 
 ### Flexbox and CSS Grid
-**I used **Flexbox** to align items in the navbar, hero section, and footer. I used **CSS Grid** to arrange the feature cards, pricing cards, and testimonials.**
+I used **Flexbox** to align items in the navbar, hero section, and footer. I used **CSS Grid** to arrange the feature cards, pricing cards, and testimonials.
 
 ### User Experience (UX)
-**A responsive design gives users a consistent and accessible experience no matter what device they use. It helps reduce bounce rates and keeps users engaged longer.**
+A responsive design gives users a consistent and accessible experience no matter what device they use. It helps reduce bounce rates and keeps users engaged longer.
 
 ---
 
 ## 5. Tailwind CSS
 
 ### Utility-First CSS
-> Tailwind CSS uses utility classes that let me style elements directly in the HTML. This makes development faster and keeps the styling consistent.
+Tailwind CSS uses utility classes that let me style elements directly in the HTML. This makes development faster and keeps the styling consistent.
 
 ### Advantages of Tailwind CSS
 - **Consistency** – Predefined classes keep the design uniform.
@@ -56,16 +56,17 @@ I used Tailwind's breakpoints (`sm`, `md`, `lg`, `xl`) to adjust the layout, tex
 - **Performance** – Unused styles are removed during the production build.
 
 ### Responsive Utility Classes
-> Here is an example from my project:
+Here is an example from my project:
 
 **html**
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
 ### Component Styling
-- I used Tailwind utility classes to style reusable Blade components like buttons, cards, and the navbar. Some examples:
-> Buttons → bg-teal-600, text-white, rounded-xl, hover:bg-teal-700
-> Cards → bg-white, rounded-lg, shadow-md, p-6
-> Navbar → flex, items-center, justify-between, bg-white, shadow-sm
+- I used Tailwind utility classes to style reusable Blade components like buttons, cards, and the navbar. 
+Some examples:
+Buttons → bg-teal-600, text-white, rounded-xl, hover:bg-teal-700
+Cards → bg-white, rounded-lg, shadow-md, p-6
+Navbar → flex, items-center, justify-between, bg-white, shadow-sm
 
 ---
 
