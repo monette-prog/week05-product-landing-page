@@ -109,8 +109,8 @@ blade
 ## 7. User Interface Design
 
 ### Color Palette
-> - Primary: #0F6260 (Teal)
-> - Secondary: #073B4C (Dark Blue)
+- Primary: #0F6260 (Teal)
+- Secondary: #073B4C (Dark Blue)
 > - Accent: #EAF8F6 (Light Mint)
 > - Neutral: White, Gray, Black
 
