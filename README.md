@@ -1,5 +1,3 @@
-**CRYMA - Responsive Product Landing Page**
-
 ## 1. Project Title
 
 **CRYMA - Responsive Product Landing Page**
@@ -63,139 +61,124 @@ Throughout this project, I was able to:
 ### Responsive Utility Classes
 > Here is an example from my project:
 
-```html
+**html**
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-Component Styling
-I used Tailwind utility classes to style reusable Blade components like buttons, cards, and the navbar. Some examples:
+### Component Styling
+> I used Tailwind utility classes to style reusable Blade components like buttons, cards, and the navbar. Some examples:
+> Buttons → bg-teal-600, text-white, rounded-xl, hover:bg-teal-700
+> Cards → bg-white, rounded-lg, shadow-md, p-6
+> Navbar → flex, items-center, justify-between, bg-white, shadow-sm
 
-Buttons → bg-teal-600, text-white, rounded-xl, hover:bg-teal-700
-
-Cards → bg-white, rounded-lg, shadow-md, p-6
-
-Navbar → flex, items-center, justify-between, bg-white, shadow-sm
+---
 
 ## 6. Blade Components
-What are Blade Components?
-Blade Components are reusable UI elements in Laravel. They combine HTML and logic into a single file, so I can build consistent interfaces without copying the same code over and over.
 
-Why Reusable Components Improve Maintainability
-Efficiency – Write it once and use it anywhere.
+### What are Blade Components?
+> Blade Components are reusable UI elements in Laravel. They combine HTML and logic into a single file, so I can build consistent interfaces without copying the same code over and over.
 
-Consistency – If I change one component, it updates everywhere it is used.
+### Why Reusable Components Improve Maintainability
+> - **Efficiency** – Write it once and use it anywhere.
+> - **Consistency** – If I change one component, it updates everywhere it is used.
+> - **Clean Code** – It reduces duplication and keeps my views organized.
 
-Clean Code – It reduces duplication and keeps my views organized.
+### Benefits of Modular UI Development
+> - Easier to test and debug.
+> - Faster development.
+> - Better collaboration when working with a team.
 
-Benefits of Modular UI Development
-Easier to test and debug.
-
-Faster development.
-
-Better collaboration when working with a team.
-
-Sample Code Snippet (feature-card.blade.php)
+## Sample Code Snippet (feature-card.blade.php)
 blade
 <div class="bg-white p-6 rounded-lg shadow-md text-center">
     <div class="text-4xl mb-4">{{ $icon }}</div>
     <h3 class="text-xl font-bold text-gray-800">{{ $title }}</h3>
     <p class="text-gray-600 mt-2">{{ $description }}</p>
 </div>
-Blade Components Used
-navbar.blade.php
 
-hero.blade.php
+### Blade Components Used
+> navbar.blade.php
+> hero.blade.php
+> feature-card.blade.php
+> pricing-card.blade.php
+> testimonial-card.blade.php
+> button.blade.php
+> footer.blade.php
 
-feature-card.blade.php
+---
 
-pricing-card.blade.php
+## 7. User Interface Design
 
-testimonial-card.blade.php
+### Color Palette
+> - Primary: #0F6260 (Teal)
+> - Secondary: #073B4C (Dark Blue)
+> - Accent: #EAF8F6 (Light Mint)
+> - Neutral: White, Gray, Black
 
-button.blade.php
-
-footer.blade.php
-
-7. User Interface Design
-Color Palette
-Primary: #0F6260 (Teal)
-
-Secondary: #073B4C (Dark Blue)
-
-Accent: #EAF8F6 (Light Mint)
-
-Neutral: White, Gray, Black
-
-Typography
+### Typography
 I used a clean and modern sans-serif font for readability and a professional look.
 
-Iconography
+### Iconography
 I used icons in the features section to make the content more engaging and easier to scan.
 
-Button Styles
+### Button Styles
 Primary buttons use a solid teal background with white text. Secondary buttons use an outline style.
 
-Card Design
+### Card Design
 The cards have rounded corners, subtle shadows, and consistent spacing to give the page a clean and polished look.
 
-Layout Consistency
+### Layout Consistency
 I kept spacing and alignment consistent across all sections so the page feels cohesive from top to bottom.
 
-8. Folder Structure
-Folder	Purpose
-resources/views/layouts	Contains the main layout file (app.blade.php) that all pages extend.
-resources/views/components	Contains reusable Blade components like the navbar, hero, cards, and footer.
-resources/views/pages	Contains the main page views, such as home.blade.php.
-public	Holds publicly accessible assets like images, CSS, and JavaScript.
-screenshots	Stores all screenshots used for documentation.
-documentation	Stores the before-and-after comparison images and other documentation files.
+---
 
-9. Screenshots
-Desktop View
-https://screenshots/03-Desktop-Layout.png
+## 8. Folder Structure
 
-Tablet View
-https://screenshots/04-Tablet-Layout.png
+### Folder	Purpose
+> - resources/views/layouts	- Contains the main layout file (app.blade.php) that all pages extend.
+> - resources/views/components - Contains reusable Blade components like the navbar, hero, cards, and footer.
+> - resources/views/pages - Contains the main page views, such as home.blade.php.
+> - public - Holds publicly accessible assets like images, CSS, and JavaScript.
+> - screenshots - Stores all screenshots used for documentation.
+> - documentation - Stores the before-and-after comparison images and other documentation files.
 
-Mobile View
-https://screenshots/05-Mobile-Layout.png
+---
 
-Navigation Bar
-https://screenshots/06-Navigation-Bar.png
+## 9. Screenshots
 
-Hero Section
-https://screenshots/07-Hero-Section.png
+| Screenshot | Image |
+|------------|-------|
+| Before Design| ![Before Design](screenshots/01-Before-Design.jpg) |
+| After Design | ![After Design](screenshots/02-After-Design.png) |
+| Desktop Layout | ![Desktop Layout](screenshots/03-Desktop-Layout.png) |
+| Tablet Layout | ![Tablet Layout](screenshots/04-Tablet-Layout.png) |
+| Mobile Layout | ![Mobile Layout](screenshots/05-Mobile-Layout.png) |
+| Navigation Bar| ![Navigation Bar](screenshots/06-Navigation-Bar.png) |
+| Hero Section  | ![Hero Section](screenshots/07-Hero-Section.png) |
+| Features Section | ![Features Section](screenshots/08-Features-Section.png) |
+| Pricing Cards | ![Pricing Cards](screenshots/09-Pricing-Cards.png) |
+| Testimonials | ![Testimonials](screenshots/10-Testimonials.png) |
+| Footer | ![Footer](screenshots/11-Footer.png) |
+| VS Code Project Structure - 1 | ![VS Code Project Structure - 1](screenshots/12-VS-Code-Project-Structure-1.png) |
+| VS Code Project Structure - 2 | ![VS Code Project Structure - 2](screenshots/12-VS-Code-Project-Structure-2.png) |
+| Blade Components | ![Blade Components](screenshots/13-Blade-Components.png) |
+| GitHub Repository | ![GitHub Repository](screenshots/14-GitHub-Repository.png) |
+| Product Showcase | ![Product Showcase](screenshots/15-Product-Showcase.png) |
 
-Features Section
-https://screenshots/08-Features-Section.png
+---
 
-Pricing Section
-https://screenshots/09-Pricing-Cards.png
+### 10. Before-and-After Comparison
+![Before Wireframe](screenshots/01-Before-Design.jpg)
 
-Testimonials
-https://screenshots/10-Testimonials.png
+![After Final Design](screenshots/02-After-Design.png)
 
-Footer
-https://screenshots/11-Footer.png
+---
 
-Blade Components Folder
-https://screenshots/13-Blade-Components.png
+## 11. Reflection
+> This project taught me how important responsive design and component-based development really are. I learned how to use Tailwind CSS to build a consistent and modern user interface, and how Blade Components can make code more maintainable and reusable. I also gained a deeper appreciation for UI/UX principles and how they affect user engagement and conversion rates.
 
-GitHub Repository
-https://screenshots/14-GitHub-Repository.png
+---
 
-10. Before-and-After Comparison
-Before (Wireframe)
-https://documentation/before.png
-
-After (Final Design)
-https://documentation/after.png
-
-11. Reflection
-This project taught me how important responsive design and component-based development really are. I learned how to use Tailwind CSS to build a consistent and modern user interface, and how Blade Components can make code more maintainable and reusable. I also gained a deeper appreciation for UI/UX principles and how they affect user engagement and conversion rates.
-
-12. References
-Laravel. (2026). Laravel - The PHP Framework for Web Artisans. https://laravel.com/docs
-
-Tailwind CSS. (2026). Tailwind CSS Documentation. https://tailwindcss.com/docs
-
-MDN Web Docs. (2026). Web development references. https://developer.mozilla.org/en-US/
+## 12. References
+> - Laravel. (2026). Laravel - The PHP Framework for Web Artisans. https://laravel.com/docs
+> - Tailwind CSS. (2026). Tailwind CSS Documentation. https://tailwindcss.com/docs
+> - MDN Web Docs. (2026). Web development references. https://developer.mozilla.org/en-US/
