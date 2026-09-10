@@ -212,7 +212,7 @@
 
                                     <div class="flex h-20 items-center justify-center rounded-md bg-gray-100">
                                         <img
-                                            src="{{ asset('image/running-shoes.jpg') }}"
+                                            src="{{ asset('image/running-pink-shoes.jpg') }}"
                                             alt="Running Shoes"
                                             class="h-16 w-16 object-contain"
                                         >

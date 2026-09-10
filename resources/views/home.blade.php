@@ -216,7 +216,7 @@
                                 <div class="flex h-24 items-center justify-center rounded-lg bg-white">
 
                                     <img
-                                        src="{{ asset('assets/images/headphones.png') }}"
+                                        src="{{ asset('image/headphones-pink.jpg') }}"
                                         alt="Headphones"
                                         class="h-20 w-20 object-contain"
                                     >
@@ -240,7 +240,7 @@
                                 <div class="flex h-24 items-center justify-center rounded-lg bg-white">
 
                                     <img
-                                        src="{{ asset('assets/images/running_shoes.png') }}"
+                                        src="{{ asset('image/running-pink-shoes.jpg') }}"
                                         alt="Running Shoes"
                                         class="h-20 w-20 object-contain"
                                     >
@@ -264,7 +264,7 @@
                                 <div class="flex h-24 items-center justify-center rounded-lg bg-white">
 
                                     <img
-                                        src="{{ asset('assets/images/smartwatch.png') }}"
+                                        src="{{ asset('image/smartwatch.jpg') }}"
                                         alt="Smartwatch"
                                         class="h-20 w-20 object-contain"
                                     >
@@ -470,4 +470,4 @@
 
 </section>
 
-@endsection
+@endsection 
