@@ -165,7 +165,6 @@ Sans-serif fonts are easier to read on screens, especially on smaller devices. K
 
 ---
 
-```markdown
 ## 9. Screenshots
 
 | Screenshot | Image |
