@@ -1,96 +1,76 @@
-<section id="home" class="relative overflow-hidden bg-[#0F6863] text-white">
+<section id="home" class="bg-[#075E59] text-white">
+    <div class="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
 
-    {{-- Decorative background circles --}}
-    <div class="pointer-events-none absolute -left-32 top-10 h-72 w-72 rounded-full bg-white/5"></div>
-    <div class="pointer-events-none absolute -right-20 -top-24 h-80 w-80 rounded-full bg-white/5"></div>
-    <div class="pointer-events-none absolute bottom-[-120px] right-[20%] h-72 w-72 rounded-full bg-[#6DE4D5]/10"></div>
+        <div class="grid items-center gap-12 lg:grid-cols-2">
 
-    <div class="relative mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
+            {{-- LEFT SIDE --}}
+            <div>
 
-        <div class="grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr]">
-
-            {{-- =====================================================
-                LEFT : HERO TEXT
-            ====================================================== --}}
-            <div class="max-w-xl">
-
-                <p class="mb-5 text-xs font-semibold uppercase tracking-[0.28em] text-[#8EF1E4]">
+                <p class="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-teal-200">
                     Welcome to CRYMA
                 </p>
 
-                <h1 class="text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
+                <h1 class="max-w-xl text-5xl font-bold leading-tight sm:text-6xl">
                     Your Shopping,
-                    <span class="block text-[#78F0E0]">
+                    <span class="text-teal-200">
                         Your Way.
                     </span>
                 </h1>
 
-                <p class="mt-6 max-w-lg text-sm leading-7 text-teal-50 sm:text-base">
-                    Discover amazing products, enjoy secure payments, and
-                    experience a seamless online shopping journey all in one place.
+                <p class="mt-6 max-w-lg text-base leading-7 text-teal-50 sm:text-lg">
+                    Discover amazing products, enjoy secure payments,
+                    and experience a seamless online shopping journey
+                    all in one place.
                 </p>
 
-                <div class="mt-8 flex flex-wrap gap-3">
+                <div class="mt-8 flex flex-wrap gap-4">
 
                     <a href="#pricing"
-                       class="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#0F6863] shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl">
-                        Shop Now
-                        <span>→</span>
+                       class="rounded-full bg-white px-7 py-3 font-semibold text-[#075E59] shadow-lg transition hover:-translate-y-1 hover:bg-teal-50">
+                        Shop Now →
                     </a>
 
                     <a href="#features"
-                       class="inline-flex items-center rounded-full border border-white/70 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10">
+                       class="rounded-full border border-white/70 px-7 py-3 font-semibold text-white transition hover:bg-white/10">
                         Explore Features
                     </a>
 
                 </div>
+
             </div>
 
 
-            {{-- =====================================================
-                RIGHT : CRYMA BROWSER / WEBSITE BOX
-            ====================================================== --}}
-            <div class="relative mx-auto w-full max-w-[540px]">
+            {{-- RIGHT SIDE: BROWSER BOX --}}
+            <div class="relative">
 
-                {{-- Glow --}}
-                <div class="absolute -inset-5 rounded-[2rem] bg-white/10 blur-2xl"></div>
+                {{-- DO NOT CHANGE THIS OUTER BOX --}}
+                <div class="overflow-hidden rounded-2xl bg-white shadow-2xl">
 
-                {{-- MAIN BROWSER BOX --}}
-                <div class="relative overflow-hidden rounded-[18px] bg-white shadow-[0_25px_70px_rgba(0,0,0,0.25)]">
+                    {{-- Browser Header --}}
+                    <div class="flex items-center gap-2 border-b bg-gray-100 px-4 py-3">
 
-                    {{-- Browser top bar --}}
-                    <div class="flex items-center gap-2 border-b border-gray-200 bg-[#F6F8F8] px-4 py-3">
+                        <span class="h-3 w-3 rounded-full bg-red-400"></span>
+                        <span class="h-3 w-3 rounded-full bg-yellow-400"></span>
+                        <span class="h-3 w-3 rounded-full bg-green-400"></span>
 
-                        <span class="h-3 w-3 rounded-full bg-[#FF5F57]"></span>
-                        <span class="h-3 w-3 rounded-full bg-[#FFBD2E]"></span>
-                        <span class="h-3 w-3 rounded-full bg-[#28C840]"></span>
-
-                        <div class="ml-3 flex h-7 flex-1 items-center rounded-full bg-white px-4 text-[10px] text-gray-400 shadow-sm">
+                        <div class="ml-3 flex-1 rounded-full bg-white px-4 py-1.5 text-xs text-gray-400">
                             cryma.com
                         </div>
 
                     </div>
 
 
-                    {{-- Website content --}}
-                    <div class="p-4 sm:p-5">
+                    {{-- WEBSITE INSIDE THE BOX --}}
+                    <div class="p-5 text-gray-800">
 
-                        {{-- Store Header --}}
+                        {{-- Website Header --}}
                         <div class="flex items-center justify-between">
 
-                            {{-- CRYMA logo --}}
-                            <div class="flex items-center gap-2">
-                                <div class="flex h-7 w-7 items-center justify-center rounded-md bg-[#0F6863] text-[11px] font-extrabold text-white">
-                                    C
-                                </div>
+                            <h2 class="text-xl font-bold text-[#075E59]">
+                                CRYMA
+                            </h2>
 
-                                <span class="text-sm font-extrabold tracking-wide text-[#0F6863]">
-                                    CRYMA
-                                </span>
-                            </div>
-
-                            {{-- Mini navigation --}}
-                            <div class="hidden items-center gap-4 text-[9px] text-gray-500 sm:flex">
+                            <div class="hidden items-center gap-4 text-xs text-gray-600 sm:flex">
                                 <span>Home</span>
                                 <span>Shop</span>
                                 <span>Orders</span>
@@ -101,196 +81,208 @@
                         </div>
 
 
-                        {{-- Search bar --}}
-                        <div class="mt-4 flex h-8 items-center rounded-md border border-gray-200 bg-[#FAFBFB] px-3">
+                        {{-- Search Bar --}}
+                        <div class="mt-4">
 
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                class="h-3.5 w-3.5 text-gray-500"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                                stroke-width="2"
-                            >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    d="m21 21-4.35-4.35m1.35-5.65a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
-                                />
-                            </svg>
+                            <div class="flex items-center rounded-lg border border-gray-200 bg-gray-50 px-3 py-2">
 
-                            <span class="ml-2 text-[9px] text-gray-400">
-                                Search products...
-                            </span>
+                                <span class="mr-2 text-gray-400">
+                                    🔍
+                                </span>
+
+                                <span class="text-xs text-gray-400">
+                                    Search products...
+                                </span>
+
+                            </div>
 
                         </div>
 
 
-                        {{-- Featured Banner --}}
-                        <div class="mt-4 overflow-hidden rounded-xl bg-gradient-to-r from-[#0E7771] to-[#0A6964] p-4 text-white">
+                        {{-- GREEN PRODUCT BANNER --}}
+                        <div class="mt-5 overflow-hidden rounded-xl bg-gradient-to-r from-[#075E59] to-[#0B8078] p-6">
 
-                            <p class="text-[8px] font-semibold uppercase tracking-wider text-teal-100">
+                            <p class="text-xs font-semibold uppercase tracking-wider text-teal-100">
                                 Featured Collection
                             </p>
 
-                            <h3 class="mt-1 text-lg font-extrabold leading-tight">
+                            <h3 class="mt-2 max-w-xs text-2xl font-bold leading-tight text-white">
                                 Better Products
-                                <span class="block">
-                                    Brighter Days
-                                </span>
+                                <br>
+                                Brighter Days
                             </h3>
 
-                            <button
-                                class="mt-3 rounded-full bg-white px-4 py-1.5 text-[8px] font-bold text-[#0F6863]"
-                            >
+                            <button class="mt-4 rounded-full bg-white px-4 py-2 text-xs font-bold text-[#075E59]">
                                 Shop Now →
                             </button>
 
                         </div>
 
 
-                        {{-- Category icons --}}
-                        <div class="mt-4 grid grid-cols-6 gap-2">
+                        {{-- CATEGORY ICONS --}}
+                        <div class="mt-5 grid grid-cols-6 gap-2 text-center">
 
-                            <div class="text-center">
-                                <div class="mx-auto flex h-8 w-8 items-center justify-center rounded-full bg-[#EAF8F6] text-sm">
+                            <div>
+                                <div class="mx-auto flex h-8 w-8 items-center justify-center rounded-full bg-teal-50">
                                     🚚
                                 </div>
-                                <p class="mt-1 text-[7px] text-gray-500">Delivery</p>
+                                <p class="mt-1 text-[9px] text-gray-500">Delivery</p>
                             </div>
 
-                            <div class="text-center">
-                                <div class="mx-auto flex h-8 w-8 items-center justify-center rounded-full bg-[#EAF8F6] text-sm">
+                            <div>
+                                <div class="mx-auto flex h-8 w-8 items-center justify-center rounded-full bg-teal-50">
                                     🛍️
                                 </div>
-                                <p class="mt-1 text-[7px] text-gray-500">Shop</p>
+                                <p class="mt-1 text-[9px] text-gray-500">Shop</p>
                             </div>
 
-                            <div class="text-center">
-                                <div class="mx-auto flex h-8 w-8 items-center justify-center rounded-full bg-[#EAF8F6] text-sm">
+                            <div>
+                                <div class="mx-auto flex h-8 w-8 items-center justify-center rounded-full bg-teal-50">
                                     🔒
                                 </div>
-                                <p class="mt-1 text-[7px] text-gray-500">Secure</p>
+                                <p class="mt-1 text-[9px] text-gray-500">Secure</p>
                             </div>
 
-                            <div class="text-center">
-                                <div class="mx-auto flex h-8 w-8 items-center justify-center rounded-full bg-[#EAF8F6] text-sm">
+                            <div>
+                                <div class="mx-auto flex h-8 w-8 items-center justify-center rounded-full bg-teal-50">
                                     💎
                                 </div>
-                                <p class="mt-1 text-[7px] text-gray-500">Deals</p>
+                                <p class="mt-1 text-[9px] text-gray-500">Deals</p>
                             </div>
 
-                            <div class="text-center">
-                                <div class="mx-auto flex h-8 w-8 items-center justify-center rounded-full bg-[#EAF8F6] text-sm">
+                            <div>
+                                <div class="mx-auto flex h-8 w-8 items-center justify-center rounded-full bg-teal-50">
                                     📦
                                 </div>
-                                <p class="mt-1 text-[7px] text-gray-500">Orders</p>
+                                <p class="mt-1 text-[9px] text-gray-500">Orders</p>
                             </div>
 
-                            <div class="text-center">
-                                <div class="mx-auto flex h-8 w-8 items-center justify-center rounded-full bg-[#EAF8F6] text-sm">
+                            <div>
+                                <div class="mx-auto flex h-8 w-8 items-center justify-center rounded-full bg-teal-50">
                                     💬
                                 </div>
-                                <p class="mt-1 text-[7px] text-gray-500">Support</p>
+                                <p class="mt-1 text-[9px] text-gray-500">Support</p>
                             </div>
 
                         </div>
 
 
-                        {{-- Featured Products heading --}}
-                        <div class="mt-4 flex items-center justify-between">
+                        {{-- PRODUCTS --}}
+                        <div class="mt-5">
 
-                            <h4 class="text-xs font-extrabold text-[#0F6863]">
-                                Featured Products
-                            </h4>
+                            <div class="flex items-center justify-between">
 
-                            <span class="text-[8px] text-gray-400">
-                                View All →
-                            </span>
+                                <h3 class="font-bold text-[#064F4B]">
+                                    Featured Products
+                                </h3>
 
-                        </div>
-
-
-                        {{-- Product cards --}}
-                        <div class="mt-2 grid grid-cols-4 gap-2">
-
-                            {{-- Headphones --}}
-                            <div class="rounded-lg bg-[#F7F9F9] p-2">
-
-                                <div class="flex h-16 items-center justify-center rounded-md bg-[#F0F3F3] text-3xl">
-                                    🎧
-                                </div>
-
-                                <p class="mt-2 truncate text-[8px] font-semibold text-gray-700">
-                                    Headphones
-                                </p>
-
-                                <p class="mt-0.5 text-[8px] font-bold text-[#0F6863]">
-                                    ₱1,099
-                                </p>
+                                <span class="text-xs text-gray-400">
+                                    View All →
+                                </span>
 
                             </div>
 
 
-                            {{-- Running Shoes --}}
-                            <div class="rounded-lg bg-[#F7F9F9] p-2">
+                            <div class="mt-3 grid grid-cols-4 gap-3">
 
-                                <div class="flex h-16 items-center justify-center rounded-md bg-[#F0F3F3] text-3xl">
-                                    👟
+                                {{-- HEADPHONES --}}
+                                <div class="rounded-lg bg-gray-50 p-3">
+
+                                    <div class="flex h-20 items-center justify-center rounded-md bg-gray-100">
+                                        <img
+                                            src="{{ asset('image/headphones-pink.jpg') }}"
+                                            alt="Headphones"
+                                            class="h-16 w-16 object-contain"
+                                        >
+                                    </div>
+
+                                    <p class="mt-2 truncate text-[10px] font-semibold">
+                                        Headphones
+                                    </p>
+
+                                    <p class="text-[10px] text-[#075E59]">
+                                        ₱1,099
+                                    </p>
+
                                 </div>
 
-                                <p class="mt-2 truncate text-[8px] font-semibold text-gray-700">
-                                    Running Shoes
-                                </p>
 
-                                <p class="mt-0.5 text-[8px] font-bold text-[#0F6863]">
-                                    ₱1,499
-                                </p>
+                                {{-- RUNNING SHOES --}}
+                                <div class="rounded-lg bg-gray-50 p-3">
 
-                            </div>
+                                    <div class="flex h-20 items-center justify-center rounded-md bg-gray-100">
+                                        <img
+                                            src="{{ asset('image/running-shoes.jpg') }}"
+                                            alt="Running Shoes"
+                                            class="h-16 w-16 object-contain"
+                                        >
+                                    </div>
 
+                                    <p class="mt-2 truncate text-[10px] font-semibold">
+                                        Running Shoes
+                                    </p>
 
-                            {{-- Smartwatch --}}
-                            <div class="rounded-lg bg-[#F7F9F9] p-2">
+                                    <p class="text-[10px] text-[#075E59]">
+                                        ₱1,499
+                                    </p>
 
-                                <div class="flex h-16 items-center justify-center rounded-md bg-[#F0F3F3] text-3xl">
-                                    ⌚
                                 </div>
 
-                                <p class="mt-2 truncate text-[8px] font-semibold text-gray-700">
-                                    Smartwatch
-                                </p>
 
-                                <p class="mt-0.5 text-[8px] font-bold text-[#0F6863]">
-                                    ₱2,299
-                                </p>
+                                {{-- SMARTWATCH --}}
+                                <div class="rounded-lg bg-gray-50 p-3">
 
-                            </div>
+                                    <div class="flex h-20 items-center justify-center rounded-md bg-gray-100">
+                                        <img
+                                            src="{{ asset('image/smartwatch.jpg') }}"
+                                            alt="Smartwatch"
+                                            class="h-16 w-16 object-contain"
+                                        >
+                                    </div>
 
+                                    <p class="mt-2 truncate text-[10px] font-semibold">
+                                        Smartwatch
+                                    </p>
 
-                            {{-- Backpack --}}
-                            <div class="rounded-lg bg-[#F7F9F9] p-2">
+                                    <p class="text-[10px] text-[#075E59]">
+                                        ₱2,299
+                                    </p>
 
-                                <div class="flex h-16 items-center justify-center rounded-md bg-[#F0F3F3] text-3xl">
-                                    🎒
                                 </div>
 
-                                <p class="mt-2 truncate text-[8px] font-semibold text-gray-700">
-                                    Backpack
-                                </p>
 
-                                <p class="mt-0.5 text-[8px] font-bold text-[#0F6863]">
-                                    ₱899
-                                </p>
+                                {{-- BACKPACK --}}
+                                <div class="rounded-lg bg-gray-50 p-3">
+
+                                    <div class="flex h-20 items-center justify-center rounded-md bg-gray-100">
+                                        <img
+                                            src="{{ asset('image/backpack.jpg') }}"
+                                            alt="Backpack"
+                                            class="h-16 w-16 object-contain"
+                                        >
+                                    </div>
+
+                                    <p class="mt-2 truncate text-[10px] font-semibold">
+                                        Backpack
+                                    </p>
+
+                                    <p class="text-[10px] text-[#075E59]">
+                                        ₱899
+                                    </p>
+
+                                </div>
 
                             </div>
 
                         </div>
 
                     </div>
+
                 </div>
+
             </div>
 
         </div>
+
     </div>
 </section>
