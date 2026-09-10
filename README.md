@@ -47,26 +47,27 @@ A responsive design gives users a consistent and accessible experience no matter
 ## 5. Tailwind CSS
 
 ### Utility-First CSS
-Tailwind CSS uses utility classes that let me style elements directly in the HTML. This makes development faster and keeps the styling consistent.
+> Tailwind CSS uses utility classes that let me style elements directly in the HTML. This makes development faster and keeps the styling consistent.
 
 ### Advantages of Tailwind CSS
-- **Consistency** – Predefined classes keep the design uniform.
-- **Customization** – I can customize everything through `tailwind.config.js`.
-- **Responsive Design** – Built-in responsive classes make it easy to build for any screen.
-- **Performance** – Unused styles are removed during the production build.
+> - **Consistency** – Predefined classes keep the design uniform.
+> - **Customization** – I can customize everything through `tailwind.config.js`.
+> - **Responsive Design** – Built-in responsive classes make it easy to build for any screen.
+> - **Performance** – Unused styles are removed during the production build.
 
 ### Responsive Utility Classes
-Here is an example from my project:
+> Here is an example from my project:
 
-**html**
-div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+```html
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+```
 
 ### Component Styling
-- I used Tailwind utility classes to style reusable Blade components like buttons, cards, and the navbar. 
-- Some examples:
-- Buttons → bg-teal-600, text-white, rounded-xl, hover:bg-teal-700
-- Cards → bg-white, rounded-lg, shadow-md, p-6
-Navbar → flex, items-center, justify-between, bg-white, shadow-sm
+> I used Tailwind utility classes to style reusable Blade components like buttons, cards, and the navbar. Some examples:
+>
+> - **Buttons** → `bg-teal-600`, `text-white`, `rounded-xl`, `hover:bg-teal-700`
+> - **Cards** → `bg-white`, `rounded-lg`, `shadow-md`, `p-6`
+> - **Navbar** → `flex`, `items-center`, `justify-between`, `bg-white`, `shadow-sm`
 
 ---
 
