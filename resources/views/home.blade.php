@@ -83,13 +83,13 @@
 {{-- ============================================================
     PRODUCT SHOWCASE
 ============================================================ --}}
-<section class="bg-[#EAF8F6] py-20">
+<section id="showcase" class="bg-[#EAF8F6] py-20">
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
 
         <div class="grid items-center gap-12 lg:grid-cols-2">
 
-            {{-- Left Content --}}
+            {{-- LEFT CONTENT --}}
             <div>
 
                 <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#0F6260]">
@@ -107,49 +107,45 @@
                 </p>
 
 
+                {{-- KEY HIGHLIGHTS --}}
                 <div class="mt-7 space-y-4">
 
                     <div class="flex items-start gap-3">
-
-                        <span class="mt-0.5 flex h-6 w-6 items-center justify-center rounded-full bg-[#0F6260] text-sm text-white">
+                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#0F6260] text-sm text-white">
                             ✓
                         </span>
 
                         <span class="text-gray-700">
                             Modern and responsive design
                         </span>
-
                     </div>
 
 
                     <div class="flex items-start gap-3">
-
-                        <span class="mt-0.5 flex h-6 w-6 items-center justify-center rounded-full bg-[#0F6260] text-sm text-white">
+                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#0F6260] text-sm text-white">
                             ✓
                         </span>
 
                         <span class="text-gray-700">
                             Easy product search and filtering
                         </span>
-
                     </div>
 
 
                     <div class="flex items-start gap-3">
-
-                        <span class="mt-0.5 flex h-6 w-6 items-center justify-center rounded-full bg-[#0F6260] text-sm text-white">
+                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#0F6260] text-sm text-white">
                             ✓
                         </span>
 
                         <span class="text-gray-700">
                             Secure and seamless checkout
                         </span>
-
                     </div>
 
                 </div>
 
 
+                {{-- BUTTONS --}}
                 <div class="mt-8 flex flex-wrap gap-4">
 
                     <a href="#pricing"
@@ -167,15 +163,19 @@
             </div>
 
 
-            {{-- Right Website Preview --}}
+            {{-- RIGHT SIDE --}}
             <div class="relative">
 
-                {{-- Decorative Circle --}}
+                {{-- Decorative Circles --}}
                 <div class="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-[#C8F1EA] opacity-70"></div>
 
+                <div class="absolute -bottom-8 -left-8 h-24 w-24 rounded-full bg-[#C8F1EA] opacity-60"></div>
 
-                {{-- Browser Box --}}
-                <div class="relative overflow-hidden rounded-2xl border border-[#B8DED8] bg-white shadow-2xl">
+
+                {{-- =================================================
+                    PRODUCT SCREENSHOT
+                ================================================== --}}
+                <div class="relative z-10 overflow-hidden rounded-2xl border border-[#B8DED8] bg-white shadow-2xl">
 
                     {{-- Browser Header --}}
                     <div class="flex items-center gap-2 border-b bg-[#F5FBFA] px-4 py-3">
@@ -263,11 +263,15 @@
 
                                 <div class="flex h-24 items-center justify-center rounded-lg bg-white">
 
-                                    <img
-                                        src="{{ asset('image/smartwatch.jpg') }}"
-                                        alt="Smartwatch"
-                                        class="h-20 w-20 object-contain"
-                                    >
+                                    <div class="flex h-24 items-center justify-center rounded-lg bg-white">
+
+                                        <img
+                                            src="{{ asset('image/smartwatch.jpg') }}"
+                                            alt="Smartwatch"
+                                            class="h-20 w-20 object-contain"
+                                        >
+
+                                    </div>
 
                                 </div>
 
@@ -282,6 +286,204 @@
                             </div>
 
                         </div>
+
+                    </div>
+
+                </div>
+
+
+                {{-- =================================================
+                    DASHBOARD + MOBILE VIEW
+                ================================================== --}}
+                <div class="relative z-20 mt-5 grid grid-cols-1 gap-4 sm:grid-cols-[1fr_auto]">
+
+
+                    {{-- DASHBOARD PREVIEW --}}
+                    <div>
+
+                        <div class="rounded-2xl border border-[#B8DED8] bg-white p-4 shadow-xl">
+
+                            <div class="flex items-center justify-between">
+
+                                <div>
+
+                                    <p class="text-[10px] font-semibold uppercase tracking-wider text-gray-400">
+                                        Dashboard
+                                    </p>
+
+                                    <h3 class="mt-1 text-sm font-bold text-[#073B4C]">
+                                        Sales Overview
+                                    </h3>
+
+                                </div>
+
+                                <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-[#EAF8F6] text-[#0F6260]">
+                                    ↗
+                                </div>
+
+                            </div>
+
+
+                            <div class="mt-4 grid grid-cols-2 gap-3">
+
+                                <div class="rounded-xl bg-[#F1F8F7] p-3">
+
+                                    <p class="text-[9px] text-gray-400">
+                                        Total Sales
+                                    </p>
+
+                                    <p class="mt-1 text-lg font-bold text-[#0F6260]">
+                                        ₱12,450
+                                    </p>
+
+                                </div>
+
+
+                                <div class="rounded-xl bg-[#F1F8F7] p-3">
+
+                                    <p class="text-[9px] text-gray-400">
+                                        Orders
+                                    </p>
+
+                                    <p class="mt-1 text-lg font-bold text-[#073B4C]">
+                                        128
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            {{-- Dashboard Chart --}}
+                            <div class="mt-4">
+
+                                <div class="flex h-16 items-end gap-2">
+
+                                    <div class="h-7 flex-1 rounded-t bg-[#C8F1EA]"></div>
+
+                                    <div class="h-10 flex-1 rounded-t bg-[#9DE2D7]"></div>
+
+                                    <div class="h-14 flex-1 rounded-t bg-[#65C9BA]"></div>
+
+                                    <div class="h-11 flex-1 rounded-t bg-[#3FAFA3]"></div>
+
+                                    <div class="h-16 flex-1 rounded-t bg-[#0F6260]"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <p class="mt-2 text-center text-xs font-semibold text-[#0F6260]">
+                            Dashboard Preview
+                        </p>
+
+                    </div>
+
+
+                    {{-- MOBILE VIEW --}}
+                    <div class="flex flex-col items-center">
+
+                        <div class="w-[145px] rounded-[25px] border-[5px] border-[#073B4C] bg-[#073B4C] p-1 shadow-2xl">
+
+                            <div class="overflow-hidden rounded-[20px] bg-white">
+
+                                {{-- Mobile Header --}}
+                                <div class="flex items-center justify-between bg-[#0F6260] px-3 py-3">
+
+                                    <span class="text-[9px] font-bold text-white">
+                                        CRYMA
+                                    </span>
+
+                                    <span class="text-[9px] text-white">
+                                        🛒
+                                    </span>
+
+                                </div>
+
+
+                                {{-- Mobile Content --}}
+                                <div class="p-2.5">
+
+                                    <div class="rounded-lg bg-[#EAF8F6] p-2">
+
+                                        <p class="text-[7px] font-semibold uppercase text-[#0F6260]">
+                                            Welcome Back
+                                        </p>
+
+                                        <p class="mt-1 text-[10px] font-bold text-[#073B4C]">
+                                            Shop Your Favorites
+                                        </p>
+
+                                    </div>
+
+
+                                    {{-- Mobile Search --}}
+                                    <div class="mt-2 rounded-md border border-gray-200 px-2 py-1.5">
+
+                                        <span class="text-[7px] text-gray-400">
+                                            🔍 Search products...
+                                        </span>
+
+                                    </div>
+
+
+                                    {{-- Mobile Product --}}
+                                    <div class="mt-2 rounded-lg bg-[#F1F8F7] p-2">
+
+                                        <div class="flex h-20 items-center justify-center rounded-md bg-white">
+
+                                            <img
+                                                src="{{ asset('image/running-pink-shoes.jpg') }}"
+                                                alt="Running Shoes"
+                                                class="h-16 w-16 object-contain"
+                                            >
+
+                                        </div>
+
+                                        <p class="mt-1 text-[8px] font-semibold text-gray-800">
+                                            Running Shoes
+                                        </p>
+
+                                        <p class="text-[8px] font-bold text-[#0F6260]">
+                                            ₱799
+                                        </p>
+
+                                    </div>
+
+
+                                    {{-- Mobile Navigation --}}
+                                    <div class="mt-2 flex justify-around border-t pt-2 text-[8px] text-gray-400">
+
+                                        <span class="text-[#0F6260]">
+                                            ●
+                                        </span>
+
+                                        <span>
+                                            ♡
+                                        </span>
+
+                                        <span>
+                                            🛒
+                                        </span>
+
+                                        <span>
+                                            👤
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <p class="mt-2 text-xs font-semibold text-[#0F6260]">
+                            Mobile View
+                        </p>
 
                     </div>
 
@@ -380,7 +582,7 @@
             </p>
 
             <h2 class="mt-3 text-3xl font-bold text-[#073B4C] sm:text-4xl">
-                Trusted by Thousands
+                Loved by Our Customers
             </h2>
 
             <p class="mt-4 text-gray-500">
@@ -393,21 +595,29 @@
 
         <div class="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
 
+            {{-- SHE ANN --}}
             <x-testimonial-card
-                name="Maria Santos"
+                name="She Ann Miguel"
                 position="Regular Customer"
+                image="{{ asset('image/customer-she.jpg') }}"
                 review="CRYMA made online shopping so easy and convenient! I love the fast delivery and great product selection."
             />
 
+
+            {{-- MARVIN --}}
             <x-testimonial-card
-                name="Joshua Reyes"
+                name="Marvin Cruz"
                 position="Small Business Owner"
+                image="{{ asset('image/customer-marvin.jpg') }}"
                 review="The app is super user-friendly and the customer support is amazing. Highly recommended!"
             />
 
+
+            {{-- JOSHUA --}}
             <x-testimonial-card
-                name="Angela Cruz"
+                name="Joshua Leyte"
                 position="Regular Customer"
+                image="{{ asset('image/customer-joshua.jpg') }}"
                 review="I always find what I need in CRYMA. The deals and discounts are a big plus!"
             />
 
@@ -416,7 +626,6 @@
     </div>
 
 </section>
-
 
 {{-- ============================================================
     CTA
@@ -444,22 +653,24 @@
 
             </div>
 
-
             <div class="flex flex-wrap justify-center gap-3">
 
+                {{-- REGISTER --}}
                 <a href="#home"
                    class="rounded-xl bg-white px-6 py-3 font-semibold text-[#0F6260] transition hover:-translate-y-0.5 hover:shadow-lg">
-                    Start Shopping →
+                    Register →
                 </a>
 
+                {{-- CONTACT SALES --}}
                 <a href="#contact"
                    class="rounded-xl border border-white/40 px-6 py-3 font-semibold text-white transition hover:bg-white/10">
                     Contact Sales
                 </a>
 
-                <a href="#features"
+                {{-- START FREE TRIAL --}}
+                <a href="#pricing"
                    class="rounded-xl border border-white/40 px-6 py-3 font-semibold text-white transition hover:bg-white/10">
-                    Learn More
+                    Start Free Trial
                 </a>
 
             </div>
@@ -470,4 +681,4 @@
 
 </section>
 
-@endsection 
+@endsection

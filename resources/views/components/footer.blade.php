@@ -130,10 +130,10 @@
             </div>
 
 
-            {{-- Contact --}}
+            {{-- Contact Us --}}
             <div>
                 <h4 class="font-semibold text-white">
-                    Contact
+                    Contact Us
                 </h4>
 
                 <div class="mt-3 space-y-3 text-sm text-white/80">
@@ -153,7 +153,7 @@
                         </svg>
 
                         <span>
-                            hello@cryma.com
+                            cryma.shop@gmail.com
                         </span>
 
                     </div>
@@ -184,7 +184,7 @@
                         </svg>
 
                         <span>
-                            +63 912 345 6789
+                            +63 985 440 0118
                         </span>
 
                     </div>
