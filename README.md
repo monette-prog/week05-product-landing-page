@@ -72,7 +72,7 @@ I used `Tailwind CSS` utility classes to style reusable Blade components such as
 - **Cards** → `bg-white`, `rounded-lg`, `shadow-md`, `p-6`
 - **Navbar** → `flex`, `items-center`, `justify-between`, `bg-white`, `shadow-sm`
 
-This approach ensures a **consistent** and **maintainable** design across the entire landing page.
+This approach ensures a **consistent** and **maintainable** design across the entire landing page.``~
 
 --- 
 
