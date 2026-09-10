@@ -7,13 +7,13 @@
 ## 2. Introduction
 
 ### What is a Product Landing Page?
-> **A product landing page is a standalone web page designed to promote a specific product or service. It is typically the first page a visitor sees when they click on an advertisement or a link, and its main goal is to convert visitors into customers.**
+**A product landing page is a standalone web page designed to promote a specific product or service. It is typically the first page a visitor sees when they click on an advertisement or a link, and its main goal is to convert visitors into customers.**
 
 ### Why Landing Pages Are Important for Businesses
-> **Landing pages are essential for businesses because they capture the attention of potential customers, communicate the value of a product or service, include clear calls-to-action to encourage conversions, and help build brand credibility and trust.**
+**Landing pages are essential for businesses because they capture the attention of potential customers, communicate the value of a product or service, include clear calls-to-action to encourage conversions, and help build brand credibility and trust.**
 
 ### Purpose of the Project
-> **For this project, I designed and built a modern, responsive landing page for **CRYMA**, an e-commerce brand. I used **Laravel**, **Tailwind CSS**, and **Blade Components** to create a clean and reusable interface that shows off the brand's identity and products. This project gave me hands-on practice with component-based development, responsive design, and UI/UX principles.**
+**For this project, I designed and built a modern, responsive landing page for **CRYMA**, an e-commerce brand. I used **Laravel**, **Tailwind CSS**, and **Blade Components** to create a clean and reusable interface that shows off the brand's identity and products. This project gave me hands-on practice with component-based development, responsive design, and UI/UX principles.**
 
 ---
 
@@ -34,16 +34,16 @@ Throughout this project, I was able to:
 ## 4. Responsive Web Design
 
 ### Mobile-First Design
-> **I built the CRYMA landing page with a mobile-first approach, so the layout works well on small screens first before scaling up to bigger devices.**
+**I built the CRYMA landing page with a mobile-first approach, so the layout works well on small screens first before scaling up to bigger devices.**
 
 ### Responsive Breakpoints
-> I used Tailwind's breakpoints (`sm`, `md`, `lg`, `xl`) to adjust the layout, text size, and spacing depending on the screen size.
+**I used Tailwind's breakpoints (`sm`, `md`, `lg`, `xl`) to adjust the layout, text size, and spacing depending on the screen size.**
 
 ### Flexbox and CSS Grid
-> I used **Flexbox** to align items in the navbar, hero section, and footer. I used **CSS Grid** to arrange the feature cards, pricing cards, and testimonials.
+**I used **Flexbox** to align items in the navbar, hero section, and footer. I used **CSS Grid** to arrange the feature cards, pricing cards, and testimonials.**
 
 ### User Experience (UX)
-> A responsive design gives users a consistent and accessible experience no matter what device they use. It helps reduce bounce rates and keeps users engaged longer.
+**A responsive design gives users a consistent and accessible experience no matter what device they use. It helps reduce bounce rates and keeps users engaged longer.**
 
 ---
 
@@ -53,10 +53,10 @@ Throughout this project, I was able to:
 > Tailwind CSS uses utility classes that let me style elements directly in the HTML. This makes development faster and keeps the styling consistent.
 
 ### Advantages of Tailwind CSS
-> - **Consistency** – Predefined classes keep the design uniform.
-> - **Customization** – I can customize everything through `tailwind.config.js`.
-> - **Responsive Design** – Built-in responsive classes make it easy to build for any screen.
-> - **Performance** – Unused styles are removed during the production build.
+- **Consistency** – Predefined classes keep the design uniform.
+- **Customization** – I can customize everything through `tailwind.config.js`.
+- **Responsive Design** – Built-in responsive classes make it easy to build for any screen.
+- **Performance** – Unused styles are removed during the production build.
 
 ### Responsive Utility Classes
 > Here is an example from my project:
@@ -65,7 +65,7 @@ Throughout this project, I was able to:
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
 ### Component Styling
-> I used Tailwind utility classes to style reusable Blade components like buttons, cards, and the navbar. Some examples:
+- I used Tailwind utility classes to style reusable Blade components like buttons, cards, and the navbar. Some examples:
 > Buttons → bg-teal-600, text-white, rounded-xl, hover:bg-teal-700
 > Cards → bg-white, rounded-lg, shadow-md, p-6
 > Navbar → flex, items-center, justify-between, bg-white, shadow-sm
@@ -78,14 +78,14 @@ Throughout this project, I was able to:
 > Blade Components are reusable UI elements in Laravel. They combine HTML and logic into a single file, so I can build consistent interfaces without copying the same code over and over.
 
 ### Why Reusable Components Improve Maintainability
-> - **Efficiency** – Write it once and use it anywhere.
-> - **Consistency** – If I change one component, it updates everywhere it is used.
-> - **Clean Code** – It reduces duplication and keeps my views organized.
+- **Efficiency** – Write it once and use it anywhere.
+- **Consistency** – If I change one component, it updates everywhere it is used.
+- **Clean Code** – It reduces duplication and keeps my views organized.
 
 ### Benefits of Modular UI Development
-> - Easier to test and debug.
-> - Faster development.
-> - Better collaboration when working with a team.
+- Easier to test and debug.
+- Faster development.
+- Better collaboration when working with a team.
 
 ## Sample Code Snippet (feature-card.blade.php)
 blade
@@ -111,35 +111,35 @@ blade
 ### Color Palette
 - Primary: #0F6260 (Teal)
 - Secondary: #073B4C (Dark Blue)
-> - Accent: #EAF8F6 (Light Mint)
-> - Neutral: White, Gray, Black
+- Accent: #EAF8F6 (Light Mint)
+- Neutral: White, Gray, Black
 
 ### Typography
-I used a clean and modern sans-serif font for readability and a professional look.
+**I used a clean and modern sans-serif font for readability and a professional look.**
 
 ### Iconography
-I used icons in the features section to make the content more engaging and easier to scan.
+**I used icons in the features section to make the content more engaging and easier to scan.**
 
 ### Button Styles
-Primary buttons use a solid teal background with white text. Secondary buttons use an outline style.
+**Primary buttons use a solid teal background with white text. Secondary buttons use an outline style.**
 
 ### Card Design
-The cards have rounded corners, subtle shadows, and consistent spacing to give the page a clean and polished look.
+**The cards have rounded corners, subtle shadows, and consistent spacing to give the page a clean and polished look.**
 
 ### Layout Consistency
-I kept spacing and alignment consistent across all sections so the page feels cohesive from top to bottom.
+**I kept spacing and alignment consistent across all sections so the page feels cohesive from top to bottom.**
 
 ---
 
 ## 8. Folder Structure
 
 ### Folder	Purpose
-> - resources/views/layouts	- Contains the main layout file (app.blade.php) that all pages extend.
-> - resources/views/components - Contains reusable Blade components like the navbar, hero, cards, and footer.
-> - resources/views/pages - Contains the main page views, such as home.blade.php.
-> - public - Holds publicly accessible assets like images, CSS, and JavaScript.
-> - screenshots - Stores all screenshots used for documentation.
-> - documentation - Stores the before-and-after comparison images and other documentation files.
+- resources/views/layouts	- Contains the main layout file (app.blade.php) that all pages extend.
+- resources/views/components - Contains reusable Blade components like the navbar, hero, cards, and footer.
+- resources/views/pages - Contains the main page views, such as home.blade.php.
+- public - Holds publicly accessible assets like images, CSS, and JavaScript.
+- screenshots - Stores all screenshots used for documentation.
+- documentation - Stores the before-and-after comparison images and other documentation files.
 
 ---
 
@@ -174,11 +174,11 @@ I kept spacing and alignment consistent across all sections so the page feels co
 ---
 
 ## 11. Reflection
-> This project taught me how important responsive design and component-based development really are. I learned how to use Tailwind CSS to build a consistent and modern user interface, and how Blade Components can make code more maintainable and reusable. I also gained a deeper appreciation for UI/UX principles and how they affect user engagement and conversion rates.
+- This project taught me how important responsive design and component-based development really are. I learned how to use Tailwind CSS to build a consistent and modern user interface, and how Blade Components can make code more maintainable and reusable. I also gained a deeper appreciation for UI/UX principles and how they affect user engagement and conversion rates.
 
 ---
 
 ## 12. References
-> - Laravel. (2026). Laravel - The PHP Framework for Web Artisans. https://laravel.com/docs
-> - Tailwind CSS. (2026). Tailwind CSS Documentation. https://tailwindcss.com/docs
-> - MDN Web Docs. (2026). Web development references. https://developer.mozilla.org/en-US/
+- Laravel. (2026). Laravel - The PHP Framework for Web Artisans. https://laravel.com/docs
+- Tailwind CSS. (2026). Tailwind CSS Documentation. https://tailwindcss.com/docs
+- MDN Web Docs. (2026). Web development references. https://developer.mozilla.org/en-US/
