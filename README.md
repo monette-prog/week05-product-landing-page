@@ -63,9 +63,9 @@ div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
 ### Component Styling
 - I used Tailwind utility classes to style reusable Blade components like buttons, cards, and the navbar. 
-Some examples:
-Buttons → bg-teal-600, text-white, rounded-xl, hover:bg-teal-700
-Cards → bg-white, rounded-lg, shadow-md, p-6
+- Some examples:
+- Buttons → bg-teal-600, text-white, rounded-xl, hover:bg-teal-700
+- Cards → bg-white, rounded-lg, shadow-md, p-6
 Navbar → flex, items-center, justify-between, bg-white, shadow-sm
 
 ---
@@ -73,7 +73,7 @@ Navbar → flex, items-center, justify-between, bg-white, shadow-sm
 ## 6. Blade Components
 
 ### What are Blade Components?
-> Blade Components are reusable UI elements in Laravel. They combine HTML and logic into a single file, so I can build consistent interfaces without copying the same code over and over.
+Blade Components are reusable UI elements in Laravel. They combine HTML and logic into a single file, so I can build consistent interfaces without copying the same code over and over.
 
 ### Why Reusable Components Improve Maintainability
 - **Efficiency** – Write it once and use it anywhere.
@@ -94,13 +94,13 @@ blade
 </div>
 
 ### Blade Components Used
-> navbar.blade.php
-> hero.blade.php
-> feature-card.blade.php
-> pricing-card.blade.php
-> testimonial-card.blade.php
-> button.blade.php
-> footer.blade.php
+- navbar.blade.php
+- hero.blade.php
+- feature-card.blade.php
+- pricing-card.blade.php
+- testimonial-card.blade.php
+- button.blade.php
+- footer.blade.php
 
 ---
 
