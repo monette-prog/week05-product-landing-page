@@ -165,6 +165,7 @@ Sans-serif fonts are easier to read on screens, especially on smaller devices. K
 
 ---
 
+```markdown
 ## 9. Screenshots
 
 | Screenshot | Image |
@@ -188,10 +189,13 @@ Sans-serif fonts are easier to read on screens, especially on smaller devices. K
 
 ---
 
-### 10. Before-and-After Comparison
-![Before Wireframe](screenshots/01-Before-Design.jpg)
+## 10. Before-and-After Comparison
 
-![After Final Design](screenshots/02-After-Design.png)
+### Before (Wireframe)
+![Before](documentation/01-Before-Design.jpg)
+
+### After (Final Design)
+![After](documentation/02-After-Design.png)
 
 ---
 
